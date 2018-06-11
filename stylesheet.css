@@ -1,0 +1,73 @@
+/*styling til hele body */
+body {
+    font-family: 'halvetica', sans-serif;
+    font-size: 16px;
+    background-image: url(download.png); 
+}
+
+/*Styling af wrapper til hele siden */
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px;
+    background: #cc0044;
+    color: white;
+}
+/*Styling af h1 */
+h1 {
+    text-align: center;
+    color: #000;
+    font-family: castellar;
+    font-weight:bold;
+}
+/*styling af footer */
+footer {
+    text-align: center;
+}
+
+/*Styling af alle formular bokasene */
+.textbox, .textarea, .ddl {
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    
+    
+}
+/* Styling af gem-knappen */
+.savebtn {
+    border-radius: 3px;
+}
+
+/* Styling af den submittede info */ 
+
+.spanclass {
+    font-weight: bold;
+    color: black;
+    width: 50%;
+    border-radius: 5px;
+    font-size: 12px;
+    background: white;
+    text-align: left;
+    
+
+}
+
+/* Her starter CSS til breakpoint for tablet og pc størrelse */
+
+@media screen and (min-width: 420px) {
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: black;    
+    
+    
+    }
+    .wrapper { 
+    max-width: 50%;
+    }
+    
+    
+}
